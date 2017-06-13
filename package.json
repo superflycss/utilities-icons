@@ -1,0 +1,44 @@
+{
+  "name": "@superflycss/utilities-icons",
+  "version": "1.0.0",
+  "description": "Icon utilities",
+  "main": "src/main/css/index.css",
+  "scripts": {
+    "update": "ncu -a && npm i",
+    "clean": "gulp clean",
+    "build": "npm run clean && gulp build:css",
+    "test": "npm run build && gulp test:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/superflycss/utilities-icons.git"
+  },
+  "keywords": [
+    "icons",
+    "css",
+    "html",
+    "utilities",
+    "scalable",
+    "font",
+    "superflycss"
+  ],
+  "author": "Ole Ersoy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/superflycss/utilities-icons/issues"
+  },
+  "homepage": "https://github.com/superflycss/utilities-icons#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "@superflycss/pli": "^1.0.0",
+    "@superflycss/task-build": "^1.0.2",
+    "@superflycss/task-clean": "^1.0.0",
+    "@superflycss/task-deploy": "^1.0.0",
+    "@superflycss/task-test": "^1.0.0",
+    "@superflycss/task-lint": "^1.0.0"
+  },
+  "dependencies": {
+    "@superflycss/variables-html-entities": "^1.0.0",
+    "@superflycss/variables-colors": "^1.0.0"
+  }
+}
