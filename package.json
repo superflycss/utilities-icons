@@ -1,6 +1,6 @@
 {
   "name": "@superflycss/utilities-icons",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Icon utilities",
   "main": "src/main/css/index.css",
   "scripts": {
@@ -42,7 +42,7 @@
     "@superflycss/task-test": "^1.0.7",
     "@superflycss/utilities-colors": "^2.1.4",
     "@superflycss/utilities-effects": "^1.1.0",
-    "@superflycss/utilities-fonts": "^3.0.6",
+    "@superflycss/utilities-fonts": "^3.0.8",
     "@superflycss/utilities-format": "^1.1.0",
     "@superflycss/utilities-layout": "^2.1.29",
     "gulp": "^3.9.1",
