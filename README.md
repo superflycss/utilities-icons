@@ -1,5 +1,7 @@
 # Icon Utilities
 
+[![Build Status](https://travis-ci.org/superflycss/utilities-icons.svg?branch=master)](https://travis-ci.org/superflycss/utilities-icons)
+
 ## Installation
 
 See [Installation](https://github.com/superflycss/superflycss/#installation).
