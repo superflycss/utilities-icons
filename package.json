@@ -8,6 +8,7 @@
     "clean": "gulp clean",
     "build": "npm run clean && gulp build:css",
     "test": "npm run build && gulp test:css",
+    "deploy": "npm run test && gulp deploy:test:css && gulp deploy:test:html",
     "watch:test": "onchange 'src/test/html/*.html' 'src/test/css/*.css' 'src/main/css/*.css' -- npm test"
   },
   "repository": {
