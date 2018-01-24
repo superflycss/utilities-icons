@@ -1,5 +1,7 @@
 # Icon Utilities
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/superflycss/utilities-icons.svg)](https://greenkeeper.io/)
+
 [![Build Status](https://travis-ci.org/superflycss/utilities-icons.svg?branch=master)](https://travis-ci.org/superflycss/utilities-icons)
 
 ## Installation
