@@ -53,6 +53,6 @@
   },
   "dependencies": {
     "@superflycss/variables-html-entities": "^1.0.0",
-    "@superflycss/variables-colors": "^2.1.2"
+    "@superflycss/variables-colors": "^3.0.0"
   }
 }
