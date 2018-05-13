@@ -43,7 +43,7 @@
     "@superflycss/task-lint": "^1.0.0",
     "@superflycss/task-test": "^1.0.7",
     "@superflycss/utilities-colors": "^2.1.4",
-    "@superflycss/utilities-effects": "^1.1.0",
+    "@superflycss/utilities-effects": "^2.0.0",
     "@superflycss/utilities-fonts": "^3.0.8",
     "@superflycss/utilities-format": "^1.1.0",
     "@superflycss/utilities-layout": "^2.1.29",
