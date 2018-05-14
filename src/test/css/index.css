@@ -1,8 +1,11 @@
 @import "@superflycss/foundation";
-@import "../css/index.css";
+@import "../../main/css/index.css";
 @import "@superflycss/utilities-fonts";
 @import "@superflycss/utilities-layout";
-@import "@superflycss/utilities-colors";
+@import "@superflycss/utilities-colors/material";
+@import "@superflycss/utilities-colors/superfly";
+@import "@superflycss/utilities-colors/browser";
+
 @import "@superflycss/utilities-format";
 @import "@superflycss/utilities-effects";
 @import "@superflycss/component-header";
