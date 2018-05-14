@@ -31,7 +31,7 @@
     "@superflycss/component-header": "^2.0.0",
     "@superflycss/component-test": "^2.0.32",
     "@superflycss/foundation": "^2.0.3",
-    "@superflycss/utilities-colors": "^2.1.6",
+    "@superflycss/utilities-colors": "^3.0.1",
     "@superflycss/utilities-effects": "^2.0.0",
     "@superflycss/utilities-fonts": "^3.3.0",
     "@superflycss/utilities-format": "^1.1.0",
