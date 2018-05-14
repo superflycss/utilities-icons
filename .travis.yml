@@ -9,5 +9,7 @@ deploy:
   on:
     branch: master
 before_deploy:
+  - npm i -g @superflycss/cli
+  - sfc build
   - sed -i '/target/d' .gitignore
   - sed -i '/deploy/d' .gitignore
