@@ -20,4 +20,4 @@ See [Usage](https://github.com/superflycss/superflycss/#usage)
 
 ## Tests
 
-[Superfly CSS Utilities Icons Tests](https://superflycss.github.io/utilities-icons/target/test/html/)
+[SuperflyCSS Utilities Icons Tests](https://superflycss.github.io/utilities-icons/target/test/html/)
