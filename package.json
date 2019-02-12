@@ -1,6 +1,6 @@
 {
   "name": "@superflycss/utilities-icons",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "Icon utilities",
   "main": "index.css",
   "scripts": {
@@ -29,17 +29,17 @@
     "@superflycss/component-body": "^1.0.1",
     "@superflycss/component-display": "^1.0.2",
     "@superflycss/component-header": "^2.1.0",
-    "@superflycss/component-test": "^2.0.32",
+    "@superflycss/component-test": "^3.6.20",
     "@superflycss/foundation": "^2.0.3",
-    "@superflycss/utilities-colors": "^3.0.6",
-    "@superflycss/utilities-effects": "^2.0.0",
+    "@superflycss/utilities-colors": "^3.0.9",
+    "@superflycss/utilities-effects": "^2.1.0",
     "@superflycss/utilities-fonts": "^3.3.7",
     "@superflycss/utilities-format": "^1.1.1",
-    "@superflycss/utilities-layout": "^4.0.1",
-    "npm-check-updates": "^2.14.2"
+    "@superflycss/utilities-layout": "^4.0.13",
+    "npm-check-updates": "^2.15.0"
   },
   "dependencies": {
     "@superflycss/variables-html-entities": "^1.0.0",
-    "@superflycss/variables-colors": "^3.0.4"
+    "@superflycss/variables-colors": "^3.1.12"
   }
 }

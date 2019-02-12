@@ -1,6 +1,10 @@
 <!doctype html>
 <html lang="en">
 
+{% import "@superflycss/component-test/TestHead.njk" as TestHead %}
+{% import "@superflycss/component-test/TestHeader.njk" as TestHeader %}
+{% import "@superflycss/component-test/TestTemplate.njk" as Test %}
+
 <head>
   <title>Icon Utilities Tests</title>
   <meta charset="utf-8">
@@ -28,16 +32,12 @@
   </header>
 
   <main class="u-background-color-md-light-blue-50">
-    <div class="Test u-height-5rem  u-background-color-sf-tennis-ball u-text-color-md-brown-50">
-      <a class="Test_counter"
-         href="#icon-utilities"
-         aria-hidden="true"></a>
-      <a class="Test_utilities u-text-uppercase"
-         href="#icon-utilities"
-         aria-hidden="true">Icon Utilities</a>
+    <div class="TestHeader u-height-5rem  u-background-color-sf-tennis-ball u-text-color-md-brown-50">
+       <span class="TestCounter"></span>
+       <span class="TestUtilities">Icon Utilities</span>
     </div>
 
-    <div class="u-flex u-flex-column">
+    <div class="u-flex u-flex-wrap">
       {% for entity in ['exclamation-mark', 'quotation-mark', 'number-sign', 'dollar-sign', 'percent-sign', 'ampersand', 'apostrophe', 'left-parenthesis', 'right-parenthesis', 'asterisk', 'plus-sign', 'comma', 'full-stop', 'solidus', 'colon', 'semicolon', 'less-than-sign',
       'equals-sign', 'greater-than-sign', 'question-mark', 'commercial-at', 'left-square-bracket', 'reverse-solidus', 'right-square-bracket', 'circumflex-accent', 'low-line', 'grave-accent', 'left-curly-bracket', 'vertical-line', 'right-curly-bracket',
       'no-break-space', 'inverted-exclamation-mark', 'cent-sign', 'pound-sign', 'currency-sign', 'yen-sign', 'broken-bar', 'section-sign', 'diaeresis', 'copyright-sign', 'feminine-ordinal-indicator', 'left-pointing-double-angle-quotation-mark', 'not-sign',
@@ -210,8 +210,8 @@
       'mathematical-double-struck-small-u', 'mathematical-double-struck-small-v', 'mathematical-double-struck-small-w', 'mathematical-double-struck-small-x', 'mathematical-double-struck-small-y', 'mathematical-double-struck-small-z'] %}
       <div class="u-flex
                 u-flex-column
-                u-padding-halfrem
-                u-margin-2rem
+                u-padding-5rem
+                u-margin-4rem
                 u-background-color-white
                 u-border-radius-2px
                 u-box-shadow-0-2-12-0-dfe3eb">
