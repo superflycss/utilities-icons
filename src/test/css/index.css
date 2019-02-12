@@ -1,0 +1,52 @@
+@import "@superflycss/foundation";
+@import "../../main/css/index.css";
+@import "@superflycss/utilities-fonts";
+@import "@superflycss/utilities-layout";
+@import "@superflycss/utilities-colors/material";
+@import "@superflycss/utilities-colors/superfly";
+@import "@superflycss/utilities-colors/browser";
+
+@import "@superflycss/utilities-format";
+@import "@superflycss/utilities-effects";
+@import "@superflycss/component-header";
+@import "@superflycss/component-display";
+@import "@superflycss/component-test";
+@import "@superflycss/component-body";
+
+/** Define a color palette */
+:root {
+  /** Header */
+  --Palette--Header-background-color: #F2F2F2;
+  --Palette--Header_link-text-color: #13e0ff;
+  --Palette--Header_link-border-color: #13e0ff;
+  --Palette--Header_link_onHover-text-color: #e91eaa;
+  --Palette--Header_link_onHover-border-color: #e91eaa;
+  --Palette--Header_link_onVisited-text-color: #54697b;
+  --Palette--Header_link_onVisited-border-color: #cfc3c7;
+
+  /** Test */
+  --Palette--Test-background-color: #CDDC38;
+}
+
+/** Variable Overrides */
+:root {
+  /** Header */
+  --Header-padding-top: 2rem;
+  --Header-padding-bottom: 2rem;
+  --Header-background-color: var(--Palette--Header-background-color);
+
+  /** Header_link */
+  --Header_link-margin-top: 1rem;
+  --Header_link-padding-top: 1rem;
+  --Header_link-padding-left: 5rem;
+  --Header_link-padding-right: 5rem;
+  --Header_link-padding-bottom: 1rem;
+  --Header_link-border-radius: 2px;
+  --Header_link-border-color: var(--Palette--Header_link-border-color);
+  --Header_link-text-color: var(--Palette--Header_link-text-color);
+
+  --Header_link_onHover-text-color: var(--Palette--Header_link_onHover-text-color);
+  --Header_link_onHover-border-color: var(--Palette--Header_link_onHover-border-color);
+  --Header_link_onVisited-text-color: var(--Palette--Header_link_onVisited-text-color);
+  --Header_link_onVisited-border-color: var(--Palette--Header_link_onVisited-border-color);
+}
