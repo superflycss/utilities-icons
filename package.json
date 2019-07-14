@@ -36,7 +36,7 @@
     "@superflycss/utilities-fonts": "^3.3.7",
     "@superflycss/utilities-format": "^1.1.1",
     "@superflycss/utilities-layout": "^4.0.13",
-    "npm-check-updates": "^2.15.0"
+    "npm-check-updates": "^3.1.20"
   },
   "dependencies": {
     "@superflycss/variables-html-entities": "^1.0.0",
